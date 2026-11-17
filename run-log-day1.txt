@@ -1,0 +1,16 @@
+ID     INPUT   EXPECT  ACTUAL  RESULT
+----------------------------------------------
+TC-01  -1      ERROR   ERROR   PASS
+TC-02  0       D       D       PASS
+TC-03  59      D       D       PASS
+TC-04  60      C       C       PASS
+TC-05  79      C       C       PASS
+TC-06  80      B       B       PASS
+TC-07  89      B       B       PASS
+TC-08  90      A       A       PASS
+TC-09  100     A       A       PASS
+TC-10  101     ERROR   ERROR   PASS
+TC-11  75      C       C       PASS
+TC-12  abc     ERROR   ERROR   PASS
+----------------------------------------------
+TOTAL 12: 12 PASS / 0 FAIL
